@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Org Id Guide</title>
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://use.typekit.net/vkp7nji.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+
+  <body>
+      
+      <div class="topbar">
+  <a href="/index.html" class="button button--float-left"><i class="material-icons">arrow_back</i><span>Back to Main List</span></a>
+  <a href="/index.html" class="button button--float-right"><i class="material-icons">more_vert</i></a>
+  <div class="topbar__logo">
+    <img class="logo--full" src="/images/org-id-logo-horizontal.png" alt="ORG ID Guide">
+    <img class="logo--icon" src="/images/org-id-logo.png" alt="ORG ID Guide">
+  </div>
+</div>
+<main class="main-wrapper" role="main"> <!-- main content starts here -->
+  <div class="main-content single-content">
+    <header class="single-content__header">
+      <a href="#" class="button"><i class="material-icons">link</i></a>
+      <h1>Danish Central Business Register <span>(DK-CVR)</span></h1>
+    </header>
+    <aside class="single-content__sidebar single-sidebar">
+      <div class="single-sidebar__block quality-chart" data-chart="70">
+        <div id="chart1" class="quality-chart__inner"></div>
+      </div>
+      <div class="single-sidebar__block single-sidebar--dark">
+        <p>The code for this list is <code>DK-CVR</code>. When you can located the organisation you wish to identify in this list, you should either:</p>
+        <p>Enter it in an identifier database field prefixed with <code>DK-CVR</code>.</p>
+        <h2>Example</h2>
+        <pre>
+<code>DK-CVR-[ IDENTIFIER ]</code>
+        </pre>
+        <p>Or, use it within a two-part identifier, with <code>DK-CVR</code> as the 'scheme', and the identifier you have located as the 'identifier' field. </p>
+      </div>
+    </aside>
+
+    <section class="single-content__main">
+
+      <div class="single-content__block single-description">
+        <h2>Description</h2>
+        <p>The CBR is the national body for registering companies and maintaining this information in Denmark. The Central Business Register at Virk is available with English headings and categories. It can be used to search for information on all Danish businesses.</p>
+        <p>"The Danish <a href="https://en.wikipedia.org/wiki/Central_Business_Register_(Denmark)" target="_blank">Central Business Register (aka CVR — Det Centrale Virksomhedsregister)</a> is the central government register containing primary data on all businesses in Denmark, regardless of economic and organizational structure, except personally owned companies with an annual turnover of less than 50,000 Danish krones."</p>
+      </div>
+      
+      <div class="single-content__block single-meta-info">
+        <div class="single-meta-info__instructions">
+          <h3>To find identifiers</h3>
+          <p>Visit <a href="https://datacvr.virk.dk/data/" target="_blank">this website</a>. It is possible to search for identifiers on this <a href="https://datacvr.virk.dk/data/" target="_blank">database</a>. <a href="https://datacvr.virk.dk/data/?language=en-gb&" target="_blank">This is the English version</a></p>
+          <p>Identifiers are underneath the CVR heading.</p>
+          <p>Extracts from the register are also available <a href="https://datacvr.virk.dk/data/cvr-hj%C3%A6lp/cvr-udtr%C3%A6k" target="_blank">here</a></p>  
+        </div>
+        <ul class="single-meta-info__categories single-categories">
+          <li class="single-categories__item single-categories--coverage">
+            <p>Coverage: <span>United States</span></p>
+          </li>
+          <li class="single-categories__item single-categories--sectors">
+            <p>Sectors: <span>Charity, Company</span></p>
+          </li>
+          <li class="single-categories__item">
+            <p>List Type: <span>Secondary</span></p>
+          </li>
+          <li class="single-categories__item">
+            <p>Confirmed: <span>Yes</span></p>
+          </li>
+        </ul>
+        
+      </div>
+
+      <div class="single-content__block single-suggest">
+        <p>You can suggest an edit to our information about this list by <a href="https://github.com/OpenDataServices/org-ids/issues/new">posting an issue</a> or <a href="https://github.com/OpenDataServices/org-ids/tree/master/codes/dk/dk-cvr.json">submitting a pull request</a>.</p>
+      </div>
+
+      
+    </section>
+  </div>
+</main>
+  
+    
+    <div id="overlay" class="js-overlay"></div>
+    <script src="/vendor/jquery-2.1.4.min.js"></script>
+    <script src="/js/scripts.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
+  </body>
+</html>
